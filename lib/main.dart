@@ -69,7 +69,8 @@ class SecondScreen extends StatelessWidget {
 
   Future<bool> checkLoginStatus() async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.containsKey('auth_token');
+    // return prefs.containsKey('auth_token');
+    return true;
   }
 
   @override

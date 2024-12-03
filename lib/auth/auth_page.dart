@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:monaey_tracking/auth/login_form.dart';
+import 'package:monaey_tracking/dashboard/main_page.dart';
 
 class AuthPage extends StatelessWidget {
   const AuthPage({Key? key}) : super(key: key);
@@ -16,6 +17,7 @@ class AuthPage extends StatelessWidget {
       home:  _AuthPage(),
       routes: {
         '/login': (context) => const LoginForm(),
+        '/main': (context) =>  MainPage(),
       },
     );
   }
