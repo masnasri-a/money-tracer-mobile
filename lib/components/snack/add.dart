@@ -62,7 +62,6 @@ class Snack {
                                   onPressed: () {
                                     setState(() {
                                       selectedIndex = index;
-                                      print(selectedIndex);
                                     });
                                   },
                                   text: [
